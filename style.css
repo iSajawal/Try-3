@@ -1,0 +1,326 @@
+* {
+    font-family: sans-serif;
+}
+
+.topbar {
+    width: 100%;
+    background-color: rgb(49, 109, 195);
+    color: aliceblue;
+    padding-top: 16px;
+}
+
+.toplinks {
+    text-decoration: none;
+    text-align: center;
+}
+
+.toplinks1 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.toppara {
+    text-align: center;
+}
+
+.topbuttons {
+    display: inline-block;
+}
+
+.everytopbutton {
+    display: inline-block;
+    background-color: whitesmoke;
+    color: yellowgreen;
+    border: thick 1px yellowgreen;
+    text-decoration: none;
+    font-size: small;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/* NAVBAR */
+
+
+.navbar {
+    background-color: #f7f8fa !important;
+    }
+    
+    .navbar a {
+    color: #666666 !important;
+    font-size: 14px;
+    font-weight: 500;
+    }
+    
+    .navbar li {
+    margin-right: 15px;
+    }
+    
+    .nav-item a:hover {
+    background-color: #316DC3;
+    color: white !important;
+    border-radius: 30px;
+    }
+    
+    .navbar-nav .dropdown-menu {
+    padding: 0 !important;
+    }
+    
+    .dropdown-item {
+    padding: .5rem 1rem !important;
+    font-size: 13px !important;
+    font-weight: normal;
+    }
+    
+    .dropdown-item:hover {
+    background-color: #316DC3 !important;
+    border-radius: 0 !important;
+    }
+    
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+    border-radius: 0;
+    }
+    
+    #second-dropdown {
+    width: 110% !important;
+    }
+    
+    .dropdown-menu {
+    border: none !important;
+    }
+    
+    .dropdown-submenu {
+    position: relative;
+    }
+    
+    .dropdown-submenu>a:after {
+    content: "\f0da";
+    float: right;
+    border: none;
+    font-family: 'FontAwesome';
+    }
+    
+    .dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    }
+    
+    .navbar li {
+    margin-right: 0;
+    }
+    
+  /* MEDIA QUERY  */
+    
+    .navbar {
+    padding: 0 !important;
+    }
+    
+    .navbar-brand {
+    width: 78%;
+    margin-left: 15px;
+    }
+    
+    .navbar-brand img {
+    width: 60%;
+    }
+    
+    .navbar li {
+    margin: 0;
+    padding: 0 15px;
+    background-color: white;
+    border-bottom: 1px solid #e3e3e3;
+    }
+
+
+ /* HEADLINES  */
+
+.headlines {
+    background-color: rgb(49, 109, 195);
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.headlinestext {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: cornsilk;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.headlinestext1 {
+    color: greenyellow;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+/* INTRODUCTION */
+
+.Introduction {
+    text-align: center;
+    margin-top: 40px;
+    clear: both;
+}
+
+.introhr {
+    width: 40px;
+    margin-top: 0px;
+    color: rgb(66, 121, 0);
+    display: inline-block;
+    text-align: center;
+}
+
+.introhr1 {
+    width: 40px;
+    margin-top: 0px;
+    color: rgb(66, 121, 0);
+    display: inline-block;
+}
+
+.main-heading {
+    color: rgb(49, 109, 195);
+    font-size: 32px;
+}
+
+.main-heading span {
+    color: rgb(66, 121, 0);
+    font-size: 32px;
+}
+
+/* INTROPARA */
+
+.paramaterial {
+    margin: 0px 20px 0px 20px;
+    text-align: justify;
+    color: rgb(102, 102, 102);
+}
+
+/* COUNTER */
+
+.counter {
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgb(39, 85, 233);
+    width: 100%;
+    margin-top: 40px;
+}
+
+.counter {
+    text-align: center;
+    display: inline-block;
+}
+
+.counter {
+    display: inline-block;
+    color: honeydew;
+    text-align: center;
+}
+
+.counter p span {
+    color: rgb(0, 255, 0);
+    font-size: 22px;
+}
+
+/* Table */
+
+#Table .col-md-4 {
+    box-shadow: 2px 2px 5px lightslategrey;
+    padding: 15px 35px 15px 35px;
+    max-width: 31%;
+    margin: 10px;
+}
+
+#Table {
+    text-align: center
+}
+
+/* MISSION AND UPCOMING PROJECTS  */
+
+.mission {
+    margin-top: 35px;
+}
+
+.mission h2 {
+    color: rgb(49, 109, 195);
+}
+
+.mission table tr td p {
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(49, 109, 195);
+}
+
+/* Upcoming Events */
+
+.events {
+    margin-top: 35px;
+}
+
+.events h2 {
+    color: rgb(49, 109, 195);
+}
+
+/* Last Images */
+
+.lastimages {
+    margin-left: 80px;
+}
+
+.lastimages table tr td img {
+    width: 180px;
+    height: 150px
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    background-color: rgb(37, 39, 46);
+}
+
+.address {
+    color: mintcream;
+    font-style: unset;
+    padding-top: 70px;
+    display: inline-block;
+}
+
+.useful {
+    color: whitesmoke;
+    padding-top: 63px;
+}
+
+.Connect {
+    color: whitesmoke;
+    padding-top: 63px;
+}
+
+.copy {
+    background-color: rgb(49, 109, 195);
+    width: 100%;
+    margin: 0;
+}
+
+.copy p {
+    color: whitesmoke;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #Table .col-md-4 {
+        min-width: 100%;
+        margin: 0px;
+    }
+    .sticky-nav {
+        position: fixed;
+        z-index: 1000;
+        top: 0px;
+        margin-left: 0px;
+        width: 100% !important;
+        left: 0px;
+    }
+}
